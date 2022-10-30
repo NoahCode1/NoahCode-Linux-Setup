@@ -18,7 +18,7 @@ git clone https://aur.archlinux.org/minecraft-launcher.git
 sleep 5
 cd minecraft-launcher
 sleep 5
-make -si
+makepkg -si
 sleep 5
 cd
 sleep 5
@@ -26,7 +26,7 @@ git clone https://aur.archlinux.org/visual-studio-code-bin.git
 sleep 5
 cd visual-studio-code-bin
 sleep 5
-make -si
+makepkg -si
 sleep 5
 cd
 sleep 5
@@ -36,7 +36,7 @@ git clone https://aur.archlinux.org/libkipi.git
 sleep 5
 cd libkipi
 sleep 5
-make -si
+makepkg -si
 sleep 5 
 cd
 sleep 5
@@ -44,7 +44,7 @@ git clone https://aur.archlinux.org/appimagelauncher-git.git
 sleep 5
 cd appimagelauncher-git
 sleep 5
-make -si
+makepkg -si
 sleep 5
 cd
 sleep 5 
@@ -52,5 +52,5 @@ git clone https://aur.archlinux.org/brave-bin.git
 sleep 5
 cd brave-bin
 sleep 5
-make -si
+makepkg -si
 
